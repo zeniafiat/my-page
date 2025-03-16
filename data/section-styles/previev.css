@@ -1,0 +1,118 @@
+.preview-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    @media (max-width: 600px)  {
+        gap: 10px;
+    }
+}
+
+.preview-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #FF6B6B;
+}
+
+.preview-content_info-header {
+    color: #FF6B6B;
+    font-size: 32px;
+    margin: 0;
+    @media (max-width: 600px)  {
+        font-size: small;
+    }
+}
+
+.preview-content_info-header .text-small {
+    font-size: 18px;
+    color: #B0B0B0;
+}
+
+.preview-content_info-local {
+    color: #B0B0B0;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.preview-content_info-local .text-bold {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.preview-content_info-paragrapf {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+
+.main-content{
+    margin-top: 40px;
+    margin-bottom: 110px;
+}
+
+.grid-container{
+    display: grid;
+    gap: 60px;
+    grid-auto-flow: row dense;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px;
+    @media (max-width: 600px)  {
+        gap: 10px;
+    }
+}
+.main-content_area{
+    background-color: #B0B0B0;
+    padding: 15px;
+    border-radius: 15px;
+}
+.main-content_area-imgs{
+    display: flex;
+    justify-content: space-between;
+}
+.two-column-fraction{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.main-content_area-button{
+    margin: 20px;
+}
+.one-column-fraction{
+    grid-row: 1fr;
+    @media (max-width: 1150px)  {
+        overflow: hidden;
+    }
+}
+.main-content_area-img{
+    object-fit: cover;
+    border-radius:25px;
+    width:350px;
+    height:280px;
+}
+@media (max-width: 1150px) {
+    .main-content_area-img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main-content_area-img {
+        width: 250px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 810px) {
+    .main-content_area-img {
+        width: 200px;
+        height: 150px;
+    }
+}
+@media (max-width: 680px) {
+    .main-content_area-img {
+        display: none;
+    }
+}
