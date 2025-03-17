@@ -1,0 +1,16 @@
+.Projects-content{
+    display: flex;
+    flex-direction: column;
+    gap: 40;
+    @media (max-width: 800px)  {
+        gap: 10px;
+    }
+}
+.project-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

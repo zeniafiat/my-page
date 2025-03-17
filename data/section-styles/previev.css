@@ -63,11 +63,7 @@
         gap: 10px;
     }
 }
-.main-content_area{
-    background-color: #B0B0B0;
-    padding: 15px;
-    border-radius: 15px;
-}
+
 .main-content_area-imgs{
     display: flex;
     justify-content: space-between;
