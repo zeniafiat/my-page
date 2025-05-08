@@ -69,7 +69,6 @@ body {
     color: #FFFFFF;
     font-size: 18px;
     line-height: 1.6;
-    margin-top: 20px;
 }
 .simple-img{
     object-fit: cover;
@@ -192,6 +191,7 @@ body {
         height: auto;
     }
     .main-content_area-img {
-        display: none;
+        width: 150px;
+        height: auto;
     }
 }
